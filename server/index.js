@@ -1,4 +1,5 @@
-// NOTE: dotenv is loaded by the caller (dev-server.js or start script) before requiring this module
+// Load environment variables
+require('dotenv').config();
 require('express-async-errors');
 
 const express  = require('express');
